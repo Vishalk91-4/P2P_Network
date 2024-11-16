@@ -1,0 +1,21 @@
+default_events:
+- issue_comment
+- issues
+
+default_permissions:
+  # Repository contents, commits, branches, downloads, releases, and merges.
+  # https://developer.github.com/v3/apps/permissions/#permission-on-contents
+  contents: read
+
+  # Issues and related comments, assignees, labels, and milestones.
+  # https://developer.github.com/v3/apps/permissions/#permission-on-issues
+  issues: write
+
+  # Search repositories, list collaborators, and access repository metadata.
+  # https://developer.github.com/v3/apps/permissions/#metadata-permissions
+  metadata: read
+
+name: Issue Assigner
+url: https://github.com/apps/issue-assigner/
+description: A bot for managing issue assignments
+public: true

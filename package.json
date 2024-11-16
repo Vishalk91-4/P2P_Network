@@ -1,0 +1,37 @@
+{
+    "name": "issue-assigner",
+    "version": "1.0.0",
+    "private": true,
+    "description": "A bot for managing issue assignments",
+    "author": "Korada Vishal",
+    "license": "ISC",
+    "homepage": "https://github.com/Vishalk91-4/issue-assigner",
+    "keywords": [
+      "probot",
+      "github",
+      "probot-app",
+      "issue",
+      "issue-assigner"
+    ],
+    "scripts": {
+      "start": "node ./src/server.js",
+      "dev": "nodemon ./src/server.js",
+      "test": "node --test"
+    },
+    "dependencies": {
+      "axios": "^1.7.2",
+      "body-parser": "^1.20.2",
+      "dotenv": "^16.4.5",
+      "probot": "^13.0.1"
+    },
+    "devDependencies": {
+      "nock": "^14.0.0-beta.5",
+      "nodemon": "^3.1.0",
+      "smee-client": "^2.0.0"
+    },
+    "engines": {
+      "node": ">= 18"
+    },
+    "type": "module"
+  }
+  
