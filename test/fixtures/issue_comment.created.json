@@ -1,0 +1,20 @@
+{
+  "action": "created",
+  "issue": {
+    "number": 1
+  },
+  "repository": {
+    "name": "test-repo",
+    "owner": {
+      "login": "test-owner"
+    }
+  },
+  "comment": {
+    "user": {
+      "login": "test"
+    }
+  },
+  "installation": {
+    "id": 2
+  }
+}

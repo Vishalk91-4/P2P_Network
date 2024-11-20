@@ -1,0 +1,15 @@
+{
+  "action": "opened",
+  "issue": {
+    "number": 1
+  },
+  "repository": {
+    "name": "test-repo",
+    "owner": {
+      "login": "test-owner"
+    }
+  },
+  "installation": {
+    "id": 2
+  }
+}
